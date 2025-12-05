@@ -58,9 +58,9 @@ Frontend Setup
 ```bash
  cd frontend 
 # Install dependencies:  
-  bun install // I used bun to create the project and install deps.
+  bun install # I used bun to create the project and install deps.
 # Run the development server:  
-  bun dev // Runs on localhost:3000.
+  bun dev # Runs on localhost:3000.
 ```
 Open the App  
 `Open http://localhost:3000 in your browser.`
