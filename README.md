@@ -47,7 +47,7 @@ git clone www.https://github.com/nathezek/calamity
 cd calamity
 ```
  Backend Setup  
- ```bash
+ ```python
 # Install dependencies (using uv or pip):  
   uv sync # or pip install -r requirements.txt
   
@@ -58,10 +58,9 @@ Frontend Setup
 ```bash
  cd frontend 
 # Install dependencies:  
-   bun install
-
+  bun install // I used bun to create the project and install deps.
 # Run the development server:  
-   bun dev 
+  bun dev // Runs on localhost:3000.
 ```
 Open the App  
 `Open http://localhost:3000 in your browser.`
