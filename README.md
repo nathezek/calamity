@@ -43,7 +43,7 @@ Voice-activated web study platform delivering unfiltered, direct feedback to com
 ### 🚦 Running the Project
 Clone the repository  
 ```bash
-git clone www.https://github.com/nathezek/calamity  
+git clone www.https://github.com/nathezek/calamity.git  
 cd calamity
 ```
  Backend Setup  
