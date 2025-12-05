@@ -46,17 +46,17 @@ git clone <repository-url>
 cd calamity  
 
 Backend Setup  
-# Install dependencies (using uv or pip)  
-uv sync # or pip install -r requirements.txt  
+#### Install dependencies (using uv or pip)  
+` uv sync # or pip install -r requirements.txt `  
 # Run the backend server  
-uvicorn main:app --reload  
+` uvicorn main:app --reload  `
 
 Frontend Setup  
-cd frontend  
-# Install dependencies  
-bun install  
-# Run the development server  
-bun dev  
+` cd frontend `  
+#### Install dependencies  
+` bun install `  
+#### Run the development server  
+` bun dev `  
 
 Open the App  
 Open http://localhost:3000 in your browser.
