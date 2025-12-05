@@ -42,13 +42,13 @@ Voice-activated web study platform delivering unfiltered, direct feedback to com
 
 ### 🚦 Running the Project
 Clone the repository  
-git clone <repository-url>  
-cd calamity  
+git clone www.https://github.com/nathezek/calamity  
+`cd calamity`  
 
-Backend Setup  
+ Backend Setup  
 #### Install dependencies (using uv or pip)  
 ` uv sync # or pip install -r requirements.txt `  
-# Run the backend server  
+#### Run the backend server  
 ` uvicorn main:app --reload  `
 
 Frontend Setup  
