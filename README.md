@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Calamity
 
-## Getting Started
+Voice-activated web study platform delivering unfiltered, direct feedback to combat student procrastination and enhance retention through AI-driven active recall and synchronized visualizations.
 
-First, run the development server:
+### ✨ Technologies
+- `React`
+- `TypeScript`
+- `Next.js`
+- `Tailwind CSS`
+- `Python`
+- `FastAPI`
+- `Google Cloud Vertex AI (Gemini)`
+- `ElevenLabs API`
+- `Web Speech API (for voice recognition)`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🚀 Features
+- Voice-Only Interaction: Users speak queries or commands; platform responds with audio feedback and synced visuals—no manual input required.
+- PDF Uploader with Voice Activation: Invoke upload via speech; platform extracts context and integrates into study sessions with commentary.
+- Brutal Explanations: AI delivers direct, sarcasm-infused breakdowns of topics, syncing audio with animated visuals (e.g., exploding equations for errors).
+- Active Recall Quizzes: Post-lesson drills lock progress on failure, repeating explanations at accelerated speeds until mastery.
+- Procrastination Locks: Detects inactivity and freezes the interface, enforcing completion with escalating audio prompts.
+- Synchronized Visuals: Audio explanations trigger reactive UI elements, such as pulsing variables or flashing error indicators for mathematical concepts.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🎯 Who it is for
+- High School Students: To overcome distractions and build foundational knowledge with enforced focus.
+- University Students: For tackling complex subjects like mathematics or sciences with personalized, no-nonsense coaching.
+- Learners with Motivation Issues: Individuals struggling with burnout or procrastination seeking a tool that demands accountability.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📍 Problem Statements (What This Platform Solves)
+- Digital Distractions: Constant notifications and multitasking erode focus during study sessions.
+- Procrastination Loops: Delays in starting or completing tasks, especially on challenging material.
+- Low Motivation and Burnout: Fluctuating drive due to extrinsic pressures and lack of intrinsic engagement.
+- Retention and Recall Issues: Forgetting key concepts post-study, leading to poor exam performance.
+- Isolation in Learning: Disjointed online experiences that amplify loneliness and reduce productivity.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🛠️ Solution (How It Solves Each Problem)
+- Digital Distractions: Implements focus modes that lock the interface and mute external notifications, using voice prompts to redirect attention.
+- Procrastination Loops: Enforces timed drills and progress locks, preventing skips with escalating audio feedback until tasks are completed.
+- Low Motivation and Burnout: Delivers direct, motivational commentary (e.g., "Fix this now or stay average") and gamifies micro-wins without superficial rewards.
+- Retention and Recall Issues: Utilizes spaced repetition quizzes with immediate, visual-reinforced corrections to embed knowledge.
+- Isolation in Learning: Simulates interactive coaching via voice, creating a "conversational" study environment that feels responsive and engaging.
 
-## Learn More
+### 🚦 Running the Project
+Clone the repository  
+git clone <repository-url>  
+cd calamity  
 
-To learn more about Next.js, take a look at the following resources:
+Backend Setup  
+# Install dependencies (using uv or pip)  
+uv sync # or pip install -r requirements.txt  
+# Run the backend server  
+uvicorn main:app --reload  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Frontend Setup  
+cd frontend  
+# Install dependencies  
+bun install  
+# Run the development server  
+bun dev  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open the App  
+Open http://localhost:3000 in your browser.
